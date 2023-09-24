@@ -1,0 +1,238 @@
+/* ===================================== Додаємо шрифти =====================================================*/
+
+@import url("fonts.css");
+
+/* ===================================== Скидаємо усі стилі =================================================*/
+
+@import url("reset.css");
+
+/* ====================================== Працюємо зі статтєю =================================================*/
+
+/* ====================================== Header =================================================*/
+.header {
+	text-align: right;
+}
+
+.header-title {
+	line-height: 2;
+	color: rgba(6, 14, 52, 0.599);
+	font-family: 'Gagalin-Regular';
+	font-size: 30px;
+}
+
+.header-list li {
+	text-transform: capitalize;
+	font-size: 20px;
+	line-height: 1.5;
+	text-decoration: underline;
+	color: rgb(17, 61, 123);
+	font-style: oblique;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+/* ====================================== Footer=================================================*/
+
+.footer {
+	text-align: right;
+}
+
+.footer-title {
+	font-family: 'Gagalin-Regular';
+	line-height: 1.5;
+	font-size: 30px;
+	color: rgba(95, 14, 18, 0.599);
+}
+
+.footer-list li {
+	text-transform: capitalize;
+	font-size: 20px;
+	line-height: 1.5;
+	text-decoration: underline;
+	color: rgb(17, 61, 123);
+	font-style: oblique;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+/* ====================================== Main =================================================*/
+#article {
+	text-align: center;
+	font-family: 'Baltica', sans-serif;
+	color: #4a2a2a;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: 'Artur';
+	font-size: 80px;
+	line-height: 1.5;
+	text-shadow: 10px -10px 15px #852a2a, 10px 10px 15px #85812a, -10px -10px 15px #2a8582, -10px 10px 15px #352a85;
+}
+
+#article h2 {
+	font-family: 'Artur';
+	font-size: 40px;
+	line-height: 1.5;
+	text-shadow: 10px -10px 15px #852a2a, 10px 10px 15px #85812a, -10px -10px 15px #2a8582, -10px 10px 15px #352a85;
+
+}
+
+#article h3 {
+	font-family: 'Artur';
+	font-size: 30px;
+	line-height: 1.5;
+	text-align-last: left;
+	text-decoration: underline;
+	text-indent: 60px;
+	text-shadow: 15px 0px 10px #9f2715, -15px 0px 10px #159f3c;
+}
+
+#article h4 {
+	font-family: 'Artur';
+	font-size: 25px;
+	line-height: 1.4;
+	text-align: left;
+	text-indent: 100px;
+	text-shadow: 10px 10px 7px #9f2715, -10px -10px 7px #159f3c;
+}
+
+h4+ul {
+	text-align: left;
+	line-height: 1.6;
+	text-indent: 40px;
+}
+
+h4+ul mark {
+	background-color: orange;
+}
+
+span {
+	font-family: 'Artur';
+	font-size: 30px;
+	line-height: 1.6;
+	text-shadow: 4px 0px 6px #000;
+	text-decoration: overline;
+}
+
+mark {
+	font-weight: 700;
+	text-shadow: 2px 2px 5px #000;
+	background-color: rgba(0, 255, 229, 0.181);
+}
+
+.discription {
+	font-size: 10px;
+	font-style: italic;
+	text-decoration: underline;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+#article .text-block>p {
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 1.6;
+	letter-spacing: 2px
+}
+
+.content {
+	text-align: left;
+	font-family: 'Artur';
+}
+
+.content-title {
+	text-indent: 60px;
+	font-size: 35px;
+	line-height: 2.5;
+	text-shadow: 10px -10px 10px #6c2323, 10px 10px 10px #605d1f, -10px -10px 10px #1b5452, -10px 10px 10px #27205c;
+}
+
+.content-list {
+
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+.content-list-inside {
+
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.1;
+	text-transform: lowercase;
+	text-indent: 20px;
+
+}
+
+#also-see>ul {
+	text-align: left;
+	text-indent: 30px;
+	font-size: 24px;
+	line-height: 1.5;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.back {
+	text-align: right;
+	font-size: 22px;
+	font-family: 'Gagalin-Regular';
+	font-style: oblique;
+}
+
+.back span {
+	text-decoration: line-through;
+}
+
+/* ====================================== Працюємо з макетом =================================================*/
+
+#maket {
+	font-family: Inter, sans-serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	line-height: 1.46;
+}
+
+/* Парцюємо з першим блоком макету */
+
+.first-block>.title, .first-block>.sub-title {
+	font-family: Poppins, sans-serif;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+}
+
+.first-block>.title {
+	color: #37393F;
+	font-size: 30px;
+}
+
+.first-block>.sub-title {
+	color: #6B77E5;
+	font-size: 20px;
+}
+
+
+/* Прцюємо з другим блоком макету*/
+
+.second-block>.title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+}
+
+/* Наступні властивості ми ще не вивчали, але і зайвими вони не будуть */
+
+.second-block>ul {
+	padding-left: 40px;
+}
+
+.second-block>ol {
+	list-style-type: decimal-leading-zero;
+	padding-left: 40px;
+}
