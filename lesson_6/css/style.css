@@ -161,7 +161,7 @@ h3+.text-block {
 
 .second-block h2 {
 	color: #0E333D;
-	font-family: DM Serif Text;
+	font-family: 'DM Serif Text';
 	font-size: 59px;
 	line-height: 1.47;
 	text-transform: capitalize;
@@ -172,7 +172,6 @@ h3+.text-block {
 .img-block {
 	display: inline-block;
 	vertical-align: top;
-	max-width: auto;
 }
 
 .img-block .leftimg {
