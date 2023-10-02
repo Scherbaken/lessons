@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+@font-face {
+	font-family: 'CoreSans';
+	src: url('../fonts/CoreSansC-65Bold.woff2') format('woff2'), url('../fonts/CoreSansC-65Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts/Causten-Regular.woff2') format('woff2'), url('../fonts/Causten-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts/Causten-Extra-Bold.woff2') format('woff2'), url('../fonts/Causten-Extra-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Aero Matics';
+	src: url('../fonts/Aero_Matics_Stencil_Bold_Italic.woff2') format('woff2'), url('../fonts/Aero_Matics_Stencil_Bold_Italic.woff') format('woff');
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Doom';
+	src: url('../fonts/AmazDooMLeft.woff2') format('woff2'), url('../fonts/AmazDooMLeft.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
