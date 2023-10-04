@@ -84,6 +84,9 @@ body {
 .templates-1-header-title {
 	font-size: 70px;
 	line-height: 1.21;
+}
+
+.templates-1-header {
 	margin-bottom: 70px;
 }
 
@@ -181,11 +184,11 @@ body {
 }
 
 .templates-2 ul {
-	margin-left: 16px;
+	padding-left: 16px;
 }
 
 .templates-2 ol {
-	margin-left: 50px;
+	padding-left: 50px;
 }
 
 .templates-2 p:not(:last-child) {
