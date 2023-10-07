@@ -1,0 +1,328 @@
+/* ===================================== Додаємо шрифти =====================================================*/
+
+@import url("fonts.css");
+
+/* ===================================== Скидаємо усі стилі =================================================*/
+
+@import url("reset.css");
+
+/*==================================================================================================================*/
+
+.consulting {
+	color: #7D7D7D;
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.46;
+}
+
+.business {
+	max-width: 715px;
+	margin: 0 auto 40px;
+	padding: 20px;
+}
+
+.business-label {
+	margin-bottom: 16px;
+}
+
+.consulting-label {
+	color: #37393F;
+	font-weight: 500;
+	line-height: 1.23;
+	/* 22/18 */
+	background: url('../img/business/square.png') left 5px / auto no-repeat;
+	padding-left: 18px;
+	text-transform: capitalize;
+}
+
+.business-title {
+	max-width: 420px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.consulting-title {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	line-height: 1.21;
+	font-size: 40px;
+}
+
+.business-textblock p:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.business-textblock {
+	margin-bottom: 48px;
+}
+
+.business-list {
+	margin-bottom: 43px;
+}
+
+.business-list li:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+.business-item {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	line-height: 1.65;
+	/* 33/20 */
+	padding-left: 35px;
+	background: url('../img/business/check.png') left 3px no-repeat;
+}
+
+.business-cards {
+	margin-bottom: 37px;
+}
+
+.business-card {
+	display: inline-block;
+	padding: 31px 32px 32px;
+	max-width: 295px;
+	border: 1px solid #E3E3E3;
+}
+
+.business-card:not(:last-child) {
+	margin-right: 21px;
+}
+
+.business-card-content {
+	padding-left: 58px;
+}
+
+.experience .business-card-content {
+	background: url('../img/business/Icon_experience.svg') no-repeat;
+}
+
+.business-card-title {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	/* 30/20 */
+	margin-bottom: 3px;
+}
+
+.business-card-textblock {
+	font-size: 16px;
+}
+
+.awards .business-card-content {
+	background: url('../img/business/Icon_awards.svg') no-repeat;
+}
+
+.business-link {
+	display: inline-block;
+	padding: 21px 35px 22px;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #6B77E5;
+	text-transform: capitalize;
+}
+
+.discover {
+	margin: 0 auto 50px;
+	max-width: 1260px;
+	padding: 20px;
+}
+
+.discover-header {
+	text-align: center;
+	margin-bottom: 47px;
+	max-width: 852px;
+	margin: 0 auto 47px;
+}
+
+.discover-label {
+	display: inline-block;
+	margin-bottom: 14px;
+}
+
+.discover-title {
+	margin-bottom: 14px;
+}
+
+.discover-textblock p:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.discover-cards {
+	font-size: 0;
+}
+
+.discover-cards-firstline {
+	margin-bottom: 58px;
+}
+
+.discover-card {
+	display: inline-block;
+	min-width: 384px;
+}
+
+.discover-card:not(:last-child) {
+	margin-right: 34px;
+}
+
+.discover-card-image {
+	width: 100%;
+	height: 501px;
+	margin-bottom: 24px;
+}
+
+.discover-card-image.monitor {
+	background: url('../img/discover/monitor.jpg') center / cover no-repeat;
+}
+
+.discover-card-image.man {
+	background: url('../img/discover/man.jpg') center / cover no-repeat;
+}
+
+.discover-card-image.phone {
+	background: url('../img/discover/phone.jpg') center / cover no-repeat;
+}
+
+.discover-card-image.woman {
+	background: url('../img/discover/woman.jpg') center / cover no-repeat;
+}
+
+.discover-card-image.teamwork {
+	background: url('../img/discover/teamwork.jpg') center / cover no-repeat;
+}
+
+.discover-card-image.cup {
+	background: url('../img/discover/cup.jpg') center / cover no-repeat;
+}
+
+/*=======================================================================*/
+
+/* Я знаю, что по макету это скорее всего кнопка, да и Евгений говорил ее не вставлять, но для полноты картины и лишней практики. Не судите строго */
+
+.discover-card-content {
+	background: url('../img/discover/arrow.png') right no-repeat;
+}
+
+/*=======================================================================*/
+
+.discover-card-title {
+	margin-bottom: 10px;
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+}
+
+.discover-card-date {
+	font-size: 14px;
+	background: url('../img/discover/date.svg') no-repeat;
+	padding-left: 25.35px;
+}
+
+/*==============================================================================================================*/
+
+.euphoria {
+	margin: 0 auto;
+	max-width: 1240px;
+	color: #807D7E;
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.4px;
+}
+
+.euphoria-textcontent {
+	padding: 0 0 0 21px;
+	background: url('../img/euphoria/decor.png') 0 3px no-repeat;
+	margin-bottom: 100px;
+}
+
+.textcontent-title {
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+	color: #3C4242;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'CoreSans', sans-serif;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+
+.textcontent-subtitle {
+	font-family: 'CoreSans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 25px;
+	line-height: 1.675;
+}
+
+.textcontent-textblock {
+	margin-bottom: 25px;
+	line-height: 1.675;
+}
+
+.textcontent-textblock p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.textcontent-textblock span {
+	font-weight: 700;
+}
+
+.textcontent-link {
+	font-family: 'CoreSans', sans-serif;
+	font-weight: 600;
+	line-height: 1.675;
+}
+
+.euphoria-imagecontent {
+	max-width: 100%;
+	/* height: 640px; */
+	background: url('../img/euphoria/forest_bg.jpg') left / 49.52% no-repeat, url('../img/euphoria/guys_bg.jpg') right / 50.48% no-repeat;
+	padding: 183px 74px 174px;
+}
+
+.imagecontent-content {
+	max-width: 466px;
+}
+
+.imagecontent-title {
+	color: #FFF;
+	font-family: 'CoreSans', sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.235;
+	/* 42/34 */
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.imagecontent-textblock {
+	color: #ffffff;
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	margin-bottom: 50px;
+	/* 24/20 */
+}
+
+.imagecontent-link {
+	display: inline-block;
+	padding: 12px 44px;
+	background-color: #ffffff;
+	color: #3C4242;
+	font-size: 18px;
+	font-family: 'Causten', sans-serif;
+	font-weight: 600;
+	line-height: 1.22;
+	/* 22/18 */
+	border-radius: 8px;
+	text-transform: capitalize;
+}
