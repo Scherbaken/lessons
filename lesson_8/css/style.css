@@ -206,6 +206,10 @@
 	background: url('../img/discover/arrow.png') right no-repeat;
 }
 
+.discover-card-content.focus {
+	background: url('../img/discover/arrow_focus.png') right no-repeat
+}
+
 /*=======================================================================*/
 
 .discover-card-title {
