@@ -8,17 +8,53 @@
 
 /*==================================================================================================================*/
 
+.header {
+	background-image: url('../img/experiments/flowers.png');
+	min-height: 300px;
+	padding-top: 75px;
+}
+
+.header-title {
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Dancing Script';
+}
+
+.footer {
+	background: url('../img/experiments/hibiscus.svg') 0 0 / 400px;
+	min-height: 300px;
+	padding-top: 75px;
+}
+
+.footer-title {
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Dancing Script';
+}
+
+.page {
+	padding: 40px 0;
+	box-shadow: inset 0 0 10px 10px #000;
+	background: url('../img/experiments/magnolia.svg') 0 0 / 600px fixed;
+}
+
+/*==================================================================================================================*/
+
 .consulting {
 	color: #7D7D7D;
 	font-size: 18px;
 	font-family: 'Inter', sans-serif;
 	line-height: 1.46;
+	background-color: #ffffff;
+	max-width: 1400px;
+	margin: 0 auto 60px;
+	padding: 50px 0 90px;
+	box-shadow: 0px 10px 20px 15px #000000;
 }
 
 .business {
 	max-width: 715px;
-	margin: 0 auto 40px;
-	padding: 20px;
+	margin: 0 auto 50px;
 }
 
 .business-label {
@@ -77,6 +113,7 @@
 
 .business-cards {
 	margin-bottom: 37px;
+	font-size: 0;
 }
 
 .business-card {
@@ -90,12 +127,16 @@
 	margin-right: 21px;
 }
 
-.business-card-content {
+.business-card-content-experience, .business-card-content-awards {
 	padding-left: 58px;
 }
 
-.experience .business-card-content {
-	background: url('../img/business/Icon_experience.svg') no-repeat;
+.business-card-content-experience {
+	background: url('../img/business/Icon_experience.svg') 0 0 / 42px no-repeat;
+}
+
+.business-card-content-awards {
+	background: url('../img/business/Icon_awards.svg') 0 0 / 42px no-repeat;
 }
 
 .business-card-title {
@@ -110,11 +151,9 @@
 
 .business-card-textblock {
 	font-size: 16px;
+	line-height: 1.35;
 }
 
-.awards .business-card-content {
-	background: url('../img/business/Icon_awards.svg') no-repeat;
-}
 
 .business-link {
 	display: inline-block;
@@ -126,9 +165,8 @@
 }
 
 .discover {
-	margin: 0 auto 50px;
-	max-width: 1260px;
-	padding: 20px;
+	max-width: 1220px;
+	margin: 0 auto;
 }
 
 .discover-header {
@@ -161,7 +199,7 @@
 
 .discover-card {
 	display: inline-block;
-	min-width: 384px;
+	width: 384px;
 }
 
 .discover-card:not(:last-child) {
@@ -170,7 +208,7 @@
 
 .discover-card-image {
 	width: 100%;
-	height: 501px;
+	min-height: 501px;
 	margin-bottom: 24px;
 }
 
@@ -203,11 +241,11 @@
 /* Я знаю, что по макету это скорее всего кнопка, да и Евгений говорил ее не вставлять, но для полноты картины и лишней практики. Не судите строго */
 
 .discover-card-content {
-	background: url('../img/discover/arrow.png') right no-repeat;
+	background: url('../img/discover/arrow.png') right / 38px no-repeat;
 }
 
 .discover-card-content.focus {
-	background: url('../img/discover/arrow_focus.png') right no-repeat
+	background: url('../img/discover/arrow_focus.png') right / 38px no-repeat
 }
 
 /*=======================================================================*/
@@ -224,22 +262,27 @@
 
 .discover-card-date {
 	font-size: 14px;
-	background: url('../img/discover/date.svg') no-repeat;
+	background: url('../img/discover/date.svg') 0 0 / 22px no-repeat;
 	padding-left: 25.35px;
 }
 
 /*==============================================================================================================*/
 
 .euphoria {
-	margin: 0 auto;
-	max-width: 1240px;
+	margin: 0 auto 60px;
+	max-width: 1500px;
 	color: #807D7E;
 	font-family: 'Causten', sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.4px;
+	box-shadow: 0px 10px 20px 15px #000000;
+	background-color: #ffffff;
+	padding: 50px 0;
 }
 
 .euphoria-textcontent {
+	max-width: 1240px;
+	margin: 0 auto;
 	padding: 0 0 0 21px;
 	background: url('../img/euphoria/decor.png') 0 3px no-repeat;
 	margin-bottom: 100px;
@@ -284,29 +327,38 @@
 }
 
 .euphoria-imagecontent {
-	max-width: 100%;
-	/* height: 640px; */
-	background: url('../img/euphoria/forest_bg.jpg') left / 49.52% no-repeat, url('../img/euphoria/guys_bg.jpg') right / 50.48% no-repeat;
+	max-width: 1240px;
+	margin: 0 auto;
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.imagecontent-leftside {
+	display: inline-block;
+	max-width: 50%;
+	min-height: 640px;
+	vertical-align: top;
+	background: url('../img/euphoria/forest_bg.jpg') center / cover no-repeat;
 	padding: 183px 74px 174px;
 }
 
-.imagecontent-content {
+.leftside-content {
 	max-width: 466px;
 }
 
-.imagecontent-title {
+.leftside-title {
 	color: #FFF;
 	font-family: 'CoreSans', sans-serif;
 	font-size: 34px;
 	font-weight: 800;
 	line-height: 1.235;
-	/* 42/34 */
 	letter-spacing: 0.208px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
 }
 
-.imagecontent-textblock {
+.leftside-textblock {
 	color: #ffffff;
 	font-family: 'Causten', sans-serif;
 	font-size: 20px;
@@ -314,10 +366,9 @@
 	letter-spacing: 1px;
 	line-height: 1.2;
 	margin-bottom: 50px;
-	/* 24/20 */
 }
 
-.imagecontent-link {
+.leftside-link {
 	display: inline-block;
 	padding: 12px 44px;
 	background-color: #ffffff;
@@ -326,7 +377,125 @@
 	font-family: 'Causten', sans-serif;
 	font-weight: 600;
 	line-height: 1.22;
-	/* 22/18 */
 	border-radius: 8px;
 	text-transform: capitalize;
+}
+
+.imagecontent-rightside {
+	display: inline-block;
+	width: 50.4%;
+	min-height: 640px;
+	vertical-align: top;
+	background: url('../img/euphoria/guys_bg.jpg') center / cover no-repeat;
+}
+
+/*=================================================================================================*/
+
+.infoblock {
+	min-height: 300px;
+	background: url('../img/experiments/pattern.svg') 0 0 / 100px;
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	margin-bottom: 60px;
+}
+
+.infoblock-title {
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Dancing Script';
+	color: #ffffff;
+	padding-top: 75px;
+}
+
+/*=================================================================================================*/
+
+.experiments {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 20px 15px #000000;
+}
+
+.experiments-bgcolor {
+	max-width: 1200px;
+	margin: 0 auto 100px;
+}
+
+.bgcolor-firstblock {
+	width: 600px;
+	height: 500px;
+	background-color: darkred;
+	margin: 0 auto;
+	padding: 35px 65px 65px 35px;
+	border-radius: 50px;
+
+}
+
+.bgcolor-secondblock {
+	width: 500px;
+	height: 400px;
+	background-color: brown;
+	padding: 35px 35px 65px 65px;
+	border-radius: 50px;
+
+}
+
+.bgcolor-thirdblock {
+	width: 400px;
+	height: 300px;
+	background-color: red;
+	padding: 65px 35px 35px 65px;
+	border-radius: 50px;
+
+}
+
+.bgcolor-fourthblock {
+	width: 300px;
+	height: 200px;
+	background-color: orange;
+	padding: 65px 65px 35px 35px;
+	border-radius: 50px;
+
+}
+
+.bgcolor-fifthblock {
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	padding: 25px 50px;
+	border-radius: 50px;
+}
+
+.bgcolor-middle {
+	width: 50px;
+	height: 50px;
+	background-color: lightyellow;
+	border-radius: 50%;
+}
+
+.experiments-universe {
+	max-width: 1200px;
+	margin: 0 auto 100px;
+	height: 800px;
+	background: url('../img/experiments/universe/mars.svg') 150px 150px / 100px no-repeat, url('../img/experiments/universe/earth.svg') 30px 500px / 200px no-repeat, url('../img/experiments/universe/saturn.svg') 900px 200px / 200px no-repeat, url('../img/experiments/universe/satellite.svg') 800px 550px / 200px no-repeat, radial-gradient(circle, rgba(245, 255, 5, 1) 0%, rgba(235, 138, 27, 1) 9%, rgba(98, 79, 23, 1) 29%, rgba(0, 0, 0, 1) 44%);
+	box-shadow: 0 0 20px 25px #000000;
+}
+
+.experiments-gradient {
+	max-width: 1200px;
+	height: 800px;
+	margin: 0 auto 100px;
+	background-image: linear-gradient(0deg, rgba(128, 2, 2, 1) 0%, rgba(227, 235, 27, 1) 16%, rgba(24, 98, 23, 1) 34%, rgba(23, 98, 91, 1) 50%, rgba(23, 33, 98, 1) 66%, rgba(97, 23, 98, 1) 83%, rgba(128, 2, 2, 1) 100%);
+	/* Нет, не ЛГБТ... Так получилось... Я хотел радугу ))) */
+	background-size: 400px 400px;
+}
+
+.experiments-attachment {
+	max-width: 1200px;
+	height: 800px;
+	margin: 0 auto;
+	background: url('../img/experiments/solar_system/solar-system.jpg') center / contain fixed no-repeat;
+	text-align: center;
+	padding-top: 400px;
 }
