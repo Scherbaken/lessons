@@ -56,7 +56,7 @@
 }
 
 .header-item:hover, .footer-item:hover {
-	scale: 1.2;
+	transform: scale(1.2);
 }
 
 .footer {
@@ -473,7 +473,7 @@
 }
 
 .custom-card-discription a:hover {
-	scale: 1.05;
+	transform: scale(1.05);
 	text-decoration: underline;
 }
 
@@ -513,7 +513,7 @@
 }
 
 .start-btn:hover {
-	scale: 0.9;
+	transform: scale(0.9);
 	box-shadow: 0 0 20px 20px rgb(105, 103, 103);
 }
 
