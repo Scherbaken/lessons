@@ -23,7 +23,7 @@
 	margin-bottom: 30px;
 }
 
-.header-title::before, .header-title::after, .header-item::before, .header-item::after, .footer-title::before, .footer-title::after, .footer-item::before, .footer-item::after {
+.header-title::before, .header-title::after, .header-item a::before, .header-item a::after, .footer-title::before, .footer-title::after, .footer-item a::before, .footer-item a::after {
 	content: "~";
 	display: inline-block;
 }
@@ -57,6 +57,10 @@
 
 .header-item:hover, .footer-item:hover {
 	transform: scale(1.2);
+}
+
+.header-item a:visited, .footer-item a:visited {
+	color: purple;
 }
 
 .footer {
