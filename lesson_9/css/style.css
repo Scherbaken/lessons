@@ -52,8 +52,12 @@
 .header-item, .footer-item {
 	display: inline-block;
 	font-size: 34px;
+	transition: all 0.5s ease;
 }
 
+.header-item:hover, .footer-item:hover {
+	scale: 1.2;
+}
 
 .footer {
 	background: url('../img/experiments/hibiscus.svg') 0 0 / 400px;
@@ -469,7 +473,7 @@
 }
 
 .custom-card-discription a:hover {
-	font-size: 26px;
+	scale: 1.05;
 	text-decoration: underline;
 }
 
