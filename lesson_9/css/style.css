@@ -1,0 +1,889 @@
+/* ===================================== Додаємо шрифти =====================================================*/
+
+@import url("fonts.css");
+
+/* ===================================== Скидаємо усі стилі =================================================*/
+
+@import url("reset.css");
+
+/*==================================================================================================================*/
+
+.header, .footer {
+	padding: 60px 20px;
+	font-family: 'Dancing Script';
+}
+
+.header {
+	background-image: url('../img/experiments/flowers.png');
+}
+
+.header-title, .footer-title {
+	text-align: center;
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+
+.header-title::before, .header-title::after, .header-item::before, .header-item::after, .footer-title::before, .footer-title::after, .footer-item::before, .footer-item::after {
+	content: "~";
+	display: inline-block;
+}
+
+.header-title::before,
+.footer-title::before {
+	margin-right: 20px;
+}
+
+.header-title::after, .footer-title::after {
+	margin-left: 20px;
+}
+
+.header-list, .footer-list {
+	text-align: center;
+}
+
+.header-list *:not(:last-child) {
+	margin-right: 50px;
+}
+
+.footer-list *:not(:last-child) {
+	margin-right: 200px;
+}
+
+.header-item, .footer-item {
+	display: inline-block;
+	font-size: 34px;
+}
+
+
+.footer {
+	background: url('../img/experiments/hibiscus.svg') 0 0 / 400px;
+}
+
+
+.page {
+	padding: 40px 0;
+	box-shadow: inset 0 0 10px 10px #000;
+	background: url('../img/experiments/magnolia.svg') 0 0 / 600px fixed;
+}
+
+.infoblock {
+	background: url('../img/experiments/pattern.svg') 0 0 / 100px;
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	margin-bottom: 60px;
+	padding: 100px 20px;
+}
+
+.infoblock-title {
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Dancing Script';
+	color: #ffffff;
+}
+
+/*==================================================================================================================*/
+
+.consulting {
+	color: #7D7D7D;
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.46;
+	background-color: #ffffff;
+	max-width: 1400px;
+	margin: 0 auto 60px;
+	padding: 50px 10px 90px;
+	box-shadow: 0px 10px 20px 15px #000000;
+}
+
+.business {
+	max-width: 673px;
+	margin: 0 auto 50px;
+}
+
+.business-label {
+	margin-bottom: 16px;
+}
+
+.consulting-label {
+	color: #37393F;
+	font-weight: 500;
+	line-height: 1.23;
+	text-transform: capitalize;
+}
+
+.consulting-label::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40ddb6;
+	margin-right: 6px;
+	vertical-align: middle;
+
+}
+
+.business-title {
+	max-width: 420px;
+	margin-bottom: 10px;
+}
+
+.consulting-title {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	line-height: 1.21;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
+.business-textblock p:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.business-textblock {
+	margin-bottom: 48px;
+}
+
+.business-list {
+	margin-bottom: 48px;
+}
+
+.business-list li:not(:last-child) {
+	margin-bottom: 31px;
+}
+
+.business-item {
+	border: 1px solid #E3E3E3;
+	padding: 28px 41px 28px 38px;
+}
+
+.item-title {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 12px;
+}
+
+.item-title::before {
+	content: "";
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background: url('../img/business/check.png') center / cover no-repeat;
+	margin-right: 19px;
+	vertical-align: middle;
+}
+
+.business-item *:last-child {
+	margin-bottom: 0px;
+}
+
+.item-textblock {
+	padding-left: 46px;
+}
+
+.business-link {
+	display: inline-block;
+	padding: 21px 35px 22px;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: rgb(107, 119, 229);
+	text-transform: capitalize;
+	transition: all 0.4s ease 0s;
+}
+
+.business-link:hover {
+	color: #37393F;
+	background-color: #40DDB6;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+.business-link:focus {
+	outline: 4px solid #40DDB6;
+}
+
+.whyus {
+	max-width: 692px;
+	margin: 0 auto 60px;
+}
+
+.whyus>*:last-child {
+	margin-bottom: 0px;
+}
+
+.whyus>[class*="textblock"]:nth-of-type(1) {
+	margin-bottom: 42px;
+}
+
+.whyus>[class*="textblock"]:nth-of-type(2) {
+	margin-bottom: 40px;
+}
+
+.whyus-title {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 9px;
+}
+
+.whyus-subtitle {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+	color: #6B77E5;
+}
+
+.whyus-benefits {
+	font-size: 0;
+	margin-bottom: 50px;
+}
+
+.benefits-image {
+	margin-right: 29px;
+}
+
+.benefits-textblock {
+	display: inline-block;
+	max-width: 332px;
+}
+
+
+.benefits-title {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+
+.benefits-subtitle {
+	margin-bottom: 21px;
+	color: #40DDB6;
+	line-height: 1.35;
+}
+
+.benefits-list {
+	font-size: 18px;
+}
+
+.benefits-item:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.benefits-item::before {
+	content: "";
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background: url("../img/business/check.png") center / cover no-repeat;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.howwework {
+	max-width: 1220px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.howwework>*:last-child {
+	margin-bottom: 0px;
+}
+
+.howwework-label {
+	margin-bottom: 16px;
+}
+
+.howwework-title {
+	margin-bottom: 41px;
+}
+
+.howwework-cards {
+	font-size: 0;
+	padding-top: 36px;
+}
+
+.howwework-card {
+	background-color: #F4F4F4;
+	display: inline-block;
+	max-width: 386px;
+	padding: 0 43px 58px;
+	text-align: center;
+}
+
+.howwework-card:not(:last-child) {
+	margin-right: 31px;
+}
+
+.howwework-card-title {
+	color: #37393F;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+
+.howwework-card-title::before {
+	content: "";
+	display: block;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: -36px auto 22px;
+}
+
+.howwework-cards *:nth-of-type(1) .howwework-card-title::before {
+	background: url('../img/business/date.png') center / cover no-repeat;
+}
+
+.howwework-cards *:nth-of-type(2) .howwework-card-title::before {
+	background: url('../img/business/pazzle.png') center / cover no-repeat;
+}
+
+.howwework-cards *:nth-of-type(3) .howwework-card-title::before {
+	background: url('../img/business/shield.png') center / cover no-repeat;
+}
+
+.howwework-card-textblock {
+	font-size: 18px;
+	margin-bottom: 37px;
+}
+
+.howwework-card-link {
+	display: inline-block;
+	color: #6B77E5;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.22;
+	text-transform: capitalize;
+}
+
+.howwework-card-link::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 0%;
+	background-color: #40DDB6;
+	transition: all 0.3s ease;
+}
+
+.howwework-card-link:hover::after {
+	width: 100%;
+}
+
+.howwework-card-link:hover {
+	color: #40DDB6;
+}
+
+.howwework-card-link:focus {
+	outline: 4px solid #40DDB6;
+}
+
+/*==============================================================================================================*/
+
+.jewellery {
+	margin: 0 auto 60px;
+	max-width: 1500px;
+	box-shadow: 0px 10px 20px 15px #000000;
+	background-color: #ffffff;
+	padding: 50px 10px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight: 700;
+	color: #000000;
+}
+
+.custom {
+	max-width: 1214px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.custom *:last-child {
+	margin-right: 0;
+}
+
+.custom-title {
+	font-size: 60px;
+	line-height: 1.15;
+	max-width: 463px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 150px;
+	margin-right: 18px;
+}
+
+.custom-title:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 67%;
+	background-color: #78473B;
+	margin-top: 13px;
+
+}
+
+.custom-card {
+	max-width: 334px;
+	display: inline-block;
+	margin-right: 55px;
+	vertical-align: top;
+}
+
+.custom-card-image {
+	border: 1px solid #000;
+	margin-bottom: 34px;
+}
+
+.custom-card-image:hover img {
+	margin: 9px -10px -9px 10px;
+}
+
+.custom-card-image img {
+	transition: all 0.3s ease;
+	width: 100%;
+}
+
+.custom-card-discription {
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+.custom-card-discription a {
+	display: inline-block;
+	transition: all 0.3s ease;
+	margin-bottom: 4px;
+}
+
+.custom-card-discription a:focus {
+	outline: 2px dotted black;
+}
+
+.custom-card-discription a:hover {
+	font-size: 26px;
+	text-decoration: underline;
+}
+
+.custom-card-title {
+	font-size: 46px;
+	margin-bottom: 31px;
+}
+
+/*=================================================================================================*/
+
+.experiments {
+	margin: 0 auto 60px;
+	max-width: 1500px;
+	box-shadow: 0px 10px 20px 15px #000000;
+	background-color: #ffffff;
+	padding: 80px 20px 50px;
+	text-align: center;
+}
+
+.my-game {
+	margin-bottom: 50px;
+}
+
+.start-btn {
+	display: block;
+	max-width: 420px;
+	padding: 25px 20px;
+	background-color: darkorchid;
+	border-radius: 15px;
+	border: 5px solid black;
+	box-shadow: 0 0 10px 10px darkgray;
+	color: white;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	transition: all 0.3s ease;
+	margin: 0 auto 30px;
+}
+
+.start-btn:hover {
+	scale: 0.9;
+	box-shadow: 0 0 20px 20px rgb(105, 103, 103);
+}
+
+.start-btn:active {
+	background-color: rgb(104, 39, 136);
+	box-shadow: 0 0 20px 5px black;
+}
+
+.my-game .text {
+	max-width: 650px;
+	display: none;
+	font-size: 0;
+	margin-bottom: 20px;
+}
+
+.my-game .text img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+
+.my-game .text p {
+	max-width: 550px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.2;
+	font-style: oblique;
+	display: inline-block;
+}
+
+.game {
+	margin: 0 auto;
+	max-width: 650px;
+	background-color: black;
+	font-size: 0;
+	position: relative;
+	text-align: left;
+}
+
+.game [class*="line"] {
+	background-color: rgb(46, 206, 246);
+	visibility: hidden;
+	cursor: pointer;
+}
+
+
+.game .line-1 {
+	width: 75px;
+	height: 75px;
+	visibility: visible;
+	display: none;
+}
+
+#game:target~.game .line-1 {
+	display: block;
+}
+
+#game:target~.text {
+	display: inline-block;
+}
+
+#game:target~.start-btn {
+	display: none;
+}
+
+.line-1:hover {
+	width: 100%;
+}
+
+.line-2 {
+	width: 75px;
+	height: 150px;
+	margin-left: 575px;
+}
+
+.line-1:hover~.line-2, .line-2:hover, .line-2:hover~.line-3, .line-3:hover, .line-3:hover~.line-4, .line-4:hover, .line-4:hover~.line-5-1, .line-5-1:hover, .line-5-1:hover~.line-5-2, .line-5-2:hover, .line-5-2:hover~.line-6, .line-6:hover, .line-6:hover~.line-7, .line-7:hover, .line-7:hover~.line-8, .line-8:hover, .line-8:hover~.line-9, .line-9:hover, .line-9:hover~.line-10, .line-10:hover, .line-10:hover~.finish, .finish:hover {
+	visibility: visible;
+}
+
+.line-3 {
+	width: 100px;
+	height: 50px;
+	margin-left: 550px;
+}
+
+.line-3:hover {
+	width: 100%;
+	margin-left: 0;
+}
+
+.line-4 {
+	width: 50px;
+	height: 100px;
+}
+
+.line-5-1 {
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+}
+
+.line-5-2 {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+}
+
+.line-5-1:hover {
+	width: 300px;
+}
+
+.line-5-2:hover {
+	margin-left: 200px;
+}
+
+.line-6 {
+	width: 30px;
+	height: 100px;
+	margin-left: 370px;
+}
+
+.line-7 {
+	width: 100px;
+	height: 30px;
+	margin-left: 300px;
+}
+
+.line-8 {
+	width: 20px;
+	height: 100px;
+	margin-left: 300px;
+}
+
+.line-9 {
+	height: 20px;
+	width: 310px;
+	margin-left: 300px;
+}
+
+.line-10 {
+	height: 50px;
+	width: 20px;
+	margin-left: 590px;
+}
+
+.finish {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	margin-left: 550px;
+	visibility: hidden;
+}
+
+.game img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.finish:hover~img, .game>img:hover {
+	display: inline-block;
+}
+
+/*=================================================================================================================================*/
+.my-chess .text {
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.2;
+	font-style: oblique;
+}
+
+.board {
+	max-width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	box-sizing: content-box;
+	background-color: black;
+	border: 5px solid black;
+}
+
+.hor {
+	font-size: 0;
+	height: 100px;
+	width: 100%;
+}
+
+.vert {
+	width: 12.5%;
+	height: 100%;
+	display: inline-block;
+}
+
+.hor:nth-child(odd) .vert:nth-child(odd), .hor:nth-child(even) .vert:nth-child(even) {
+	background-color: white !important;
+}
+
+/*============= Пешка =============*/
+
+.hor:nth-child(2) .vert {
+	background: url('../img/experiments/chess/b_pawn_svg_withShadow.svg') 10px 2px no-repeat;
+	position: relative;
+}
+
+.hor:nth-child(2) .vert::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 100px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/b_pawn_svg_withShadow.svg') 10px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(2) .vert::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 200px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/b_pawn_svg_withShadow.svg') 10px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(7) .vert {
+	background: url('../img/experiments/chess/w_pawn_svg_withShadow.svg') 10px 2px no-repeat;
+	position: relative;
+}
+
+.hor:nth-child(7) .vert::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -200px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/w_pawn_svg_withShadow.svg') 10px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(7) .vert::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -100px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/w_pawn_svg_withShadow.svg') 10px 2px no-repeat;
+	visibility: hidden;
+}
+
+
+.hor:nth-child(7) .vert:hover::before, .hor:nth-child(7) .vert:hover::after, .hor:nth-child(2) .vert:hover::before, .hor:nth-child(2) .vert:hover::after {
+	visibility: visible;
+}
+
+.hor:nth-child(7) .vert:hover, .hor:nth-child(2) .vert:hover {
+	background-image: none;
+}
+
+/*============ Ладья ============*/
+
+.hor:nth-child(1) .vert:nth-child(7n+1) {
+	background: url('../img/experiments/chess/b_rook_svg_withShadow.svg') 7px 2px no-repeat;
+}
+
+.hor:nth-child(8) .vert:nth-child(7n+1) {
+	background: url('../img/experiments/chess/w_rook_svg_withShadow.svg') 7px 2px no-repeat;
+}
+
+/*============ Слон ============*/
+
+.hor:nth-child(1) .vert:nth-child(3n+3) {
+	background: url('../img/experiments/chess/b_bishop_svg_withShadow.svg') 3px 2px no-repeat;
+}
+
+.hor:nth-child(8) .vert:nth-child(3n+3) {
+	background: url('../img/experiments/chess/w_bishop_svg_withShadow.svg') 3px 2px no-repeat;
+}
+
+/*============ Конь ============*/
+
+.hor:nth-child(1) .vert:nth-child(5n+2) {
+	background: url('../img/experiments/chess/b_knight_svg_withShadow.svg') 6px 2px no-repeat;
+	position: relative;
+}
+
+.hor:nth-child(8) .vert:nth-child(5n+2) {
+	background: url('../img/experiments/chess/w_knight_svg_withShadow.svg') 6px 2px no-repeat;
+	position: relative;
+}
+
+.hor:nth-child(1) .vert:nth-child(5n+2)::before {
+	content: "";
+	position: absolute;
+	left: -100px;
+	top: 200px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/b_knight_svg_withShadow.svg') 6px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(8) .vert:nth-child(5n+2)::before {
+	content: "";
+	position: absolute;
+	left: -100px;
+	top: -200px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/w_knight_svg_withShadow.svg') 6px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(1) .vert:nth-child(5n+2)::after {
+	content: "";
+	position: absolute;
+	left: 100px;
+	top: 200px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/b_knight_svg_withShadow.svg') 6px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(8) .vert:nth-child(5n+2)::after {
+	content: "";
+	position: absolute;
+	left: 100px;
+	top: -200px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url('../img/experiments/chess/w_knight_svg_withShadow.svg') 6px 2px no-repeat;
+	visibility: hidden;
+}
+
+.hor:nth-child(1) .vert:nth-child(5n+2):hover, .hor:nth-child(8) .vert:nth-child(5n+2):hover {
+	background-image: none;
+}
+
+.hor:nth-child(1) .vert:nth-child(5n+2):hover::before, .hor:nth-child(1) .vert:nth-child(5n+2):hover::after, .hor:nth-child(8) .vert:nth-child(5n+2):hover::before, .hor:nth-child(8) .vert:nth-child(5n+2):hover::after {
+	visibility: visible;
+}
+
+/*============ Король ============*/
+
+.hor:nth-child(1) .vert:nth-child(5) {
+	background: url('../img/experiments/chess/b_king_svg_withShadow.svg') 3px 2px no-repeat;
+}
+
+.hor:nth-child(8) .vert:nth-child(5) {
+	background: url('../img/experiments/chess/w_king_svg_withShadow.svg') 3px 2px no-repeat;
+}
+
+/*============ Ферзь ============*/
+
+.hor:nth-child(1) .vert:nth-child(4) {
+	background: url('../img/experiments/chess/b_queen_svg_withShadow.svg') 3px 8px no-repeat;
+}
+
+.hor:nth-child(8) .vert:nth-child(4) {
+	background: url('../img/experiments/chess/w_queen_svg_withShadow.svg') 3px 8px no-repeat;
+}
