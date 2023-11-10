@@ -1087,7 +1087,7 @@
 	position: relative;
 }
 
-.block::after, .block::before {
+.block::after, .block--flip::before {
 	content: "";
 	padding-top: 30%;
 	text-align: center;
