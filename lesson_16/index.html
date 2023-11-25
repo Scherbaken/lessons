@@ -36,7 +36,7 @@
 			</form>
 		</header>
 		<main class="page">
-			<div class="page__container">
+			<div class="page__euphoria">
 				<div class="page__address address-page">
 					<div class="address-page__titleblock">
 						<h2 class="address-page__title title">My Info</h2>
@@ -280,10 +280,26 @@
 					</form>
 				</div>
 			</div>
+			<div class="page__consulting consulting">
+				<p class="consulting__label">Contact Us</p>
+				<h2 class="consulting__title">Request A Call Back !</h2>
+				<form action="#" class="consulting__form" method="GET" enctype="multipart/form-data">
+					<div class="consulting__block-iput">
+						<input type="text" class="consulting__input" name="name" placeholder="Your Name" required>
+						<input type="email" class="consulting__input" name="email" placeholder="Email Address" required>
+						<input type="tel" class="consulting__input" name="phone" placeholder="Phone Number" required
+							maxlength="13">
+						<input type="text" class="consulting__input" name="subject" placeholder="Subject" required>
+						<textarea name="message" class="consulting__input consulting__input--textarea"
+							placeholder="Message..." minlength="3" required></textarea>
+					</div>
+					<button class="consulting__button" type="submit">Submit</button>
+				</form>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-
+				<p class="footer__copy">© 2023</p>
 			</div>
 		</footer>
 	</div>
