@@ -229,11 +229,21 @@ body {
 }
 
 .item-form__select {
-	color: #807D7E;
-	font-family: "Causten";
+	color: #3C4242;
 	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.2;
+	line-height: 1.35;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url('../img/arrowdown.svg');
+	background-repeat: no-repeat;
+	background-position: 93% 50%;
+	background-size: 16px;
+}
+
+
+.item-form__select:invalid {
+	color: #807D7E;
 }
 
 .item-form__option {
@@ -650,23 +660,36 @@ body {
 	color: #fff;
 	background-color: #6B77E5;
 	padding: 21px 61px 22px;
+	transition: background-color 0.4s ease;
+}
+
+.consulting__button:hover {
+	background-color: #2333bc;
 }
 
 /*==========================================================================================*/
 
 .footer {
+	position: relative;
 	background-color: #323131;
 }
 
 .footer__container {
-	max-width: 1430px;
 	margin: 0 auto;
 	padding: 40px 15px;
-	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .footer__copy {
+	flex: 1 1 auto;
 	font-size: 40px;
 	font-weight: 700;
 	color: #fff;
+	text-align: center;
+}
+
+.footer__css-validation, .footer__html-validation {
+	flex: 0 1 auto;
 }
