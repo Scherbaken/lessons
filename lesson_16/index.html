@@ -79,7 +79,7 @@
 							<label class="form-1__item item-form">
 								<span class="item-form__label">State*</span>
 								<select class="item-form__select" name="state" required>
-									<option class="item-form__option" disabled selected value="state">State</option>
+									<option class="item-form__option" disabled selected value>State</option>
 									<option class="item-form__option" value="alabama">Alabama</option>
 									<option class="item-form__option" value="california">California</option>
 									<option class="item-form__option" value="indiana">Indiana</option>
@@ -163,7 +163,7 @@
 							<label class="form-2__item item-form item-form--33p">
 								<span class="item-form__label">State*</span>
 								<select class="item-form__select" name="state" required>
-									<option class="item-form__option" disabled selected value="state">State</option>
+									<option class="item-form__option" disabled selected value>State</option>
 									<option class="item-form__option" value="alabama">Alabama</option>
 									<option class="item-form__option" value="california">California</option>
 									<option class="item-form__option" value="indiana">Indiana</option>
@@ -253,8 +253,8 @@
 												class="paymentmethod__input-card" required>
 											<input type="text" name="name" placeholder="Name of card"
 												class="paymentmethod__input-card" required>
-											<input type="month" name="date" placeholder="Expiration date (MM/YY)"
-												class="paymentmethod__input-card" required>
+											<input type="text" name="date" placeholder="Expiration date (MM/YY)"
+												class="paymentmethod__input-card" required maxlength="5">
 											<input type="password" name="code" placeholder="Security Code" maxlength="3"
 												class="paymentmethod__input-card" required>
 										</div>
