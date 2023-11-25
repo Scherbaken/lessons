@@ -506,6 +506,10 @@ body {
 	font-weight: 500;
 }
 
+.paymentmethod__textblock {
+	display: flex;
+	flex-direction: column;
+}
 
 .paymentmethod__label:not(:last-child) {
 	margin-bottom: 5px;
@@ -522,11 +526,10 @@ body {
 	height: 0;
 }
 
-.paymentmethod__input[value="credit card"]:checked~.paymentmethod__hideblock {
+.paymentmethod__input[value="card"]:checked~.paymentmethod__hideblock {
 	visibility: visible;
 	height: auto;
 	margin-top: 30px;
-
 }
 
 .paymentmethod__image {
