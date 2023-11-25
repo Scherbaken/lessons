@@ -150,7 +150,7 @@ body {
 	padding: 100px 0;
 }
 
-.page__container {
+.page__euphoria {
 	max-width: 925px;
 	margin: 0 auto;
 	padding: 40px 15px;
@@ -381,10 +381,6 @@ body {
 	font-weight: 500;
 }
 
-.billing-page__form {}
-
-
-.form-3 {}
 
 .form-3__item {
 	padding: 30px 0;
@@ -579,4 +575,98 @@ body {
 
 .form-3__button {
 	padding: 16px 20px;
+}
+
+
+/*============================================================================================*/
+
+.page__consulting {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 30px 15px;
+}
+
+.consulting {
+	text-align: center;
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+}
+
+
+.consulting__label {
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.consulting__label::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+	text-transform: capitalize;
+}
+
+
+.consulting__title {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: "Poppins", sans-serif;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+}
+
+
+.consulting__block-iput {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 35px;
+	row-gap: 28px;
+	margin-bottom: 50px;
+}
+
+.consulting__input {
+	flex: 0 1 48.5%;
+	padding: 21px 40px 22px;
+	background-color: #F8F8F8;
+	border: 1px solid #DDD;
+}
+
+.consulting__input:focus::placeholder {
+	opacity: 0;
+}
+
+.consulting__input--textarea {
+	flex: 1 1 auto;
+	resize: vertical;
+	min-height: 222px;
+}
+
+
+.consulting__button {
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+	background-color: #6B77E5;
+	padding: 21px 61px 22px;
+}
+
+/*==========================================================================================*/
+
+.footer {
+	background-color: #323131;
+}
+
+.footer__container {
+	max-width: 1430px;
+	margin: 0 auto;
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.footer__copy {
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
 }
