@@ -574,6 +574,10 @@ body {
 	flex: 0 1 calc((100% - (var(--gap) * (var(--col) - 1))) / var(--col));
 }
 
+.paymentmethod__input-card[type="password"] {
+	background: url('../img/euphoria/main/icons/eye.svg') 95% 50% / 20px no-repeat;
+}
+
 .paymentmethod__input-card:focus::placeholder {
 	opacity: 0;
 }
