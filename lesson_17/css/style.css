@@ -1,0 +1,507 @@
+/* ===================================== Додаємо шрифти =====================================================*/
+
+@import url("fonts.css");
+
+/* ===================================== Скидаємо усі стилі =================================================*/
+
+@import url("reset.css");
+
+/*==================================================================================================================*/
+
+
+.page__jewellery {}
+
+
+.jewellery {}
+
+.block {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+/*==================================================================================================================*/
+
+.block-1 {
+	background-color: #0E333D;
+	color: #fff;
+	padding: 94px 0;
+}
+
+
+.block-1__container {
+	max-width: 1203px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.block-1__title {
+	font-family: "DM Serif Text", serif;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 1.27;
+	text-transform: capitalize;
+}
+
+.block-1__title:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+.block-1__subtitle {
+	color: #EBEBEB;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.27;
+}
+
+.block-1__subtitle:not(:last-child) {
+	margin-bottom: 34px;
+}
+
+
+.block-1__list:not(:last-child) {
+	margin-bottom: 77px;
+}
+
+
+.list-block1 {
+	display: inline-flex;
+	column-gap: 41px;
+}
+
+
+.list-block1__item {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+
+
+.block-1__cards {
+	margin: 0 -15px;
+}
+
+
+.cards-block1 {
+	display: flex;
+}
+
+
+.cards-block1__column {
+	padding: 0 15px;
+	flex: 0 1 25%;
+}
+
+
+.cards-block1__item {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	min-height: 100%;
+}
+
+.cards-block1__image {
+	overflow: hidden;
+}
+
+.cards-block1__image:not(:last-child) {
+	margin-bottom: 17px;
+}
+
+.cards-block1__image img {
+	aspect-ratio: 271 / 270;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.cards-block1__name {
+	flex: 1 1 auto;
+}
+
+.cards-block1__name:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+
+
+/*==================================================================================================*/
+
+.block-2 {
+	font-family: "inter", sans-serif;
+	padding: 125px 0 114px;
+	background: url('../img/jewellery/block_2/decor.png') 100% 110% / auto no-repeat;
+	border-bottom: 1px solid #818181;
+}
+
+
+.block-2__container {
+	max-width: 1197px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.title {
+	font-family: "DM Serif Text", serif;
+	font-size: 58px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.block-2__title:not(:last-child) {
+	margin-bottom: 27px;
+}
+
+.block-2__label {
+	color: #606060;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.8;
+	text-transform: capitalize;
+}
+
+.block-2__label:not(:last-child) {
+	margin-bottom: 53px;
+}
+
+.block-2__cards {
+	margin: 0 -23px;
+}
+
+
+.cards-block2 {
+	display: flex;
+}
+
+
+.cards-block2__column {
+	flex: 0 1 33.3%;
+	padding: 0 23px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.cards-block2__item {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.cards-block2__image {
+	overflow: hidden;
+}
+
+.cards-block2__image img {
+	aspect-ratio: 357 / 240;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.cards-block2__image:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.cards-block2__title {
+	font-family: "DM Serif Text", serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.cards-block2__title:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.cards-block2__textblock {
+	flex: 1 1 auto;
+}
+
+.cards-block2__textblock:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.cards-block2__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.cards-block2__text:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+
+.cards-block2__buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.cards-block2__link {
+	color: #F55529;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 1.5;
+}
+
+.cards-block2__link img {
+	width: 24px;
+	height: 24px;
+	transition: transform 0.3s ease;
+}
+
+/*==================================================================================================================*/
+
+.block-3 {
+	padding: 193px 0 162px;
+}
+
+.block-3__container {
+	max-width: 1203px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.block-3__title {
+	color: #291403;
+}
+
+.block-3__title:not(:last-child) {
+	margin-bottom: 27px;
+}
+
+.block-3__label {
+	color: #818181;
+	font-size: 30px;
+}
+
+.block-3__label:not(:last-child) {
+	margin-bottom: 62px;
+}
+
+.block-3__cards {
+	margin: 0 -15px;
+}
+
+.block-3__cards:not(:last-child) {
+	margin-bottom: 76px;
+}
+
+.cards-block3 {
+	display: flex;
+}
+
+
+.cards-block3__column {
+	flex: 0 1 25%;
+	padding: 0 15px;
+}
+
+
+.cards-block3__item {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	min-height: 100%;
+}
+
+.cards-block3__image:not(:last-child) {
+	margin-bottom: 17px;
+}
+
+.cards-block3__image {
+	overflow: hidden;
+}
+
+.cards-block3__image img {
+	aspect-ratio: 271 / 270;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transition: transform 0.3s ease;
+}
+
+
+.cards-block3__name {
+	flex: 1 1 auto;
+}
+
+.cards-block3__name:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+
+.block-3__button {
+	padding: 18px 42.5px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #FF7A49;
+	transition: background-color 0.3s ease;
+}
+
+/*==================================================================================================================*/
+
+
+.footer {
+	position: relative;
+	background-color: #323131;
+}
+
+.footer__container {
+	margin: 0 auto;
+	padding: 40px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__copy {
+	flex: 1 1 auto;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+
+.footer__css-validation, .footer__html-validation {
+	flex: 0 1 auto;
+}
+
+
+/*==================================================================================================================*/
+
+
+@media (any-hover:hover) {
+	.list-block__link:hover {
+		text-decoration: underline;
+	}
+
+	.cards-block1__image:hover img {
+		transform: scale(1.1);
+	}
+
+	.cards-block1__name:hover {
+		text-decoration: underline;
+	}
+
+	.cards-block2__image:hover img {
+		transform: scale(1.1);
+	}
+
+	.cards-block2__link:hover {
+		text-decoration: underline;
+	}
+
+	.cards-block2__link:hover img {
+		transform: rotate(-90deg);
+	}
+
+	.block-3__button:hover {
+		background-color: #974629;
+	}
+
+	.cards-block3__image:hover img {
+		transform: scale(1.1);
+	}
+
+	.cards-block3__name:hover {
+		text-decoration: underline;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.block-1 {
+		padding: 40px 0;
+	}
+
+	.block-1__list:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.list-block__link, .cards-block2__link {
+		text-decoration: underline;
+	}
+
+	.cards-block1__name, .cards-block3__name {
+		text-decoration: underline;
+		font-size: 20px;
+	}
+
+	.block-2, .block-3 {
+		padding: 50px 0;
+	}
+
+}
+
+@media (max-width: 767.98px) {
+	.cards-block1, .cards-block2, .cards-block3 {
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+
+	.cards-block1__column, .cards-block2__column, .cards-block3__column {
+		flex: 0 1 50%;
+	}
+
+	.block-2 {
+		background: none;
+	}
+}
+
+@media (max-width: 479.98px) {
+	.block-1__list {
+		column-gap: 20px;
+	}
+
+	.cards-block2__column {
+		flex: 0 1 100%;
+	}
+
+	.block-2__title, .block-3__title {
+		font-size: 40px;
+	}
+
+	.block-2__label, .block-3__label {
+		font-size: 18px;
+	}
+
+	.block-2 {
+		padding: 30px 0;
+	}
+
+	.block-3 {
+		padding: 45px 0;
+	}
+
+	.block-2__label:not(:last-child), .block-3__label:not(:last-child) {
+		margin-bottom: 25px;
+	}
+
+	.block-3__cards:not(:last-child) {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 449.98px) {
+	.cards-block1__column, .cards-block3__column {
+		flex: 0 1 100%;
+	}
+}
