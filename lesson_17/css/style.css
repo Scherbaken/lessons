@@ -360,6 +360,7 @@
 
 /*==================================================================================================================*/
 
+/* Цей блок 300 разів перероблювався та видозмінювався, тому можливо якісь з властивостей будуть дублюватись, а якісь можливо в процесі стали зайвими. Врешті решт, я отримав результат, на який сподівався */
 
 .consulting {
 	font-family: "Inter", sans-serif;
@@ -400,6 +401,7 @@
 
 .consulting__body {
 	max-width: 610px;
+	width: 100%;
 	min-width: 430px;
 	display: flex;
 	flex-direction: column;
@@ -637,6 +639,10 @@
 		text-decoration: underline;
 	}
 
+	.content__discription:hover a {
+		text-decoration: underline;
+	}
+
 	.content__link:hover::after {
 		display: none;
 	}
@@ -706,7 +712,7 @@
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
 	.achievements {
 		flex-direction: column;
 		row-gap: 25px;
