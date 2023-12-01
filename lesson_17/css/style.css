@@ -472,7 +472,7 @@
 
 
 .achievements__image {
-	aspect-ratio: 1 / 1s;
+	aspect-ratio: 1 / 1;
 	max-width: 79px;
 	object-fit: contain;
 }
