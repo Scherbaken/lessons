@@ -599,28 +599,16 @@
 }
 
 
-/*==================================================================================================================*/
+/*=============== Адаптив =====================================================================================*/
 
 
 @media (any-hover:hover) {
-	.list-block__link:hover {
+	.list-block__link:hover, .cards-block1__name:hover, .cards-block2__link:hover, .cards-block3__name:hover, .content__discription a:hover {
 		text-decoration: underline;
 	}
 
-	.cards-block1__image:hover img {
+	.cards-block1__image:hover img, .cards-block2__image:hover img, .cards-block3__image:hover img {
 		transform: scale(1.1);
-	}
-
-	.cards-block1__name:hover {
-		text-decoration: underline;
-	}
-
-	.cards-block2__image:hover img {
-		transform: scale(1.1);
-	}
-
-	.cards-block2__link:hover {
-		text-decoration: underline;
 	}
 
 	.cards-block2__link:hover img {
@@ -629,18 +617,6 @@
 
 	.block-3__button:hover {
 		background-color: #974629;
-	}
-
-	.cards-block3__image:hover img {
-		transform: scale(1.1);
-	}
-
-	.cards-block3__name:hover {
-		text-decoration: underline;
-	}
-
-	.content__discription:hover a {
-		text-decoration: underline;
 	}
 
 	.content__link:hover::after {
