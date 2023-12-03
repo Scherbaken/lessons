@@ -603,7 +603,7 @@
 
 
 @media (any-hover:hover) {
-	.list-block__link:hover, .cards-block1__name:hover, .cards-block2__link:hover, .cards-block3__name:hover, .content__discription a:hover {
+	.list-block1__link:hover, .cards-block1__name:hover, .cards-block2__link:hover, .cards-block3__name:hover, .content__discription a:hover {
 		text-decoration: underline;
 	}
 
@@ -650,7 +650,7 @@
 		margin-bottom: 40px;
 	}
 
-	.list-block__link, .cards-block2__link {
+	.list-block1__link, .cards-block2__link {
 		text-decoration: underline;
 	}
 
