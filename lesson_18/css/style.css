@@ -611,7 +611,7 @@
 	}
 
 	.hero__title {
-		max-width: auto;
+		max-width: none;
 		font-size: 60px;
 	}
 
