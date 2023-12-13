@@ -12,6 +12,29 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
+			<div class="header__container">
+				<div class="header__logo"><img src="img/header/logo.svg" alt="Logo Euphoria"></div>
+				<div class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link menu__link--active">Shop</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Men</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Women</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Combos</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Joggers</a></li>
+					</ul>
+				</div>
+				<form action="#" class="form" method="GET" enctype="multipart/form-data">
+					<input class="form__input" type="search" name="search" placeholder="Search">
+				</form>
+				<div class="header__actions">
+					<a href="#" class="header__button header__button--search"><img src="img/header/search.svg"
+							alt="search"></a>
+					<a href="#" class="header__button"><img src="img/header/favorite.svg" alt="favorite"></a>
+					<a href="#" class="header__button"><img src="img/header/user.svg" alt="user"></a>
+					<a href="#" class="header__button"><img src="img/header/cart.svg" alt="cart"></a>
+					<button class="icon-menu"><span></span></button>
+				</div>
+			</div>
 		</header>
 		<main class="page">
 			<div class="page__container">
@@ -74,7 +97,7 @@
 								<div class="item-saving__label">Dress up in summer vibe</div>
 								<div class="item-saving__discount">UPTO 50% OFF</div>
 								<div class="item-saving__arrow-image"><img src="img/arrow_white.svg" alt="arrow"></div>
-								<a href="#" class="item-saving__link">shop now</a>
+								<a href="#" class="item-saving__link">shop now </a>
 							</div>
 							<img src="img/saving/shirts.jpg" alt="Hawaiian Shirts" class="item-saving__image">
 						</div>
@@ -126,8 +149,25 @@
 			</div>
 		</main>
 		<footer class="footer">
+			<div class="footer__container">
+				<p class="footer__css-validation">
+					<a href="https://jigsaw.w3.org/css-validator/" target="_blank">
+						<img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+							alt="Правильный CSS!">
+					</a>
+				</p>
+				<div class="footer__body">
+					<p class="footer__copy">© 2023</p>
+				</div>
+				<p class="footer__html-validation">
+					<a href="http://validator.w3.org/" target="_blank" style="background-color: transparent">
+						<img style="border-style:none" width="88" height="31" src="http://www.w3.org/Icons/valid-html401"
+							alt="Valid HTML 4.01"></a>
+				</p>
+			</div>
 		</footer>
 	</div>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
