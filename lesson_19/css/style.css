@@ -662,6 +662,10 @@
 		font-size: 30px;
 	}
 
+	.title::before {
+		height: 28px;
+	}
+
 	.item-saving__body>*:not(:last-child) {
 		margin-bottom: 10px;
 	}
