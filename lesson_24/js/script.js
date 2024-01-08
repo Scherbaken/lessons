@@ -92,14 +92,14 @@ function calcDiv (a, b) {
 	}
 };
 calcDiv();
-calcDiv(2);
 calcDiv(0, 2);
+calcDiv(2);
 calcDiv(10, 0);
 calcDiv(10, 2);
 calcDiv(-10, 4);
 calcDiv(-6, -2);
-calcDiv(0.4, 0.2);
 calcDiv("hello", 10);
+calcDiv(0.4, 0.2);
 calcDiv(4, "allo");
 
 // ==============================================================================
