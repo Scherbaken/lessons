@@ -1,0 +1,29 @@
+// Підключення шрифтів
+
+@import "_fonts.scss";
+
+// Обнулення стилів
+
+@import "_reset.scss";
+
+// Додаємо шапку
+
+@import "_header.scss";
+
+// Стилізуємо main
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+// Задаємо змінні
+
+$mainColor: #fff;
+$mainFont: "Inter";
+
+// Додаємo підвал
+
+@import "_footer.scss";
