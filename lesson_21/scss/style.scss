@@ -855,6 +855,7 @@ $purpleColor: #8a33fd;
 }
 
 .brands {
+	padding: 0 15px;
 	&__container {
 		background-color: $activeColor;
 		color: $mainBgColor;
@@ -904,8 +905,6 @@ $purpleColor: #8a33fd;
 			color: rgba(251, 209, 3, 1);
 		}
 	}
-}
-.brand {
 	&__logos {
 		display: flex;
 		flex-wrap: wrap;
@@ -926,10 +925,6 @@ $purpleColor: #8a33fd;
 		padding: 5px;
 		border: 1px solid #fff;
 		transition: all 0.3s;
-		@media (max-width: 409.98px) {
-			flex-basis: 130px;
-			height: 60px;
-		}
 		&:hover {
 			@media (any-hover: hover) {
 				box-shadow: 0 0 10px #fff;
