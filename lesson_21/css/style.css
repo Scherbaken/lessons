@@ -1876,6 +1876,9 @@ textarea {
   }
 }
 
+.brands {
+  padding: 0 15px;
+}
 .brands__container {
   background-color: #3c4242;
   color: #fff;
@@ -1935,8 +1938,7 @@ textarea {
 .brands__discription span {
   color: rgb(251, 209, 3);
 }
-
-.brand__logos {
+.brands__logos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1950,7 +1952,7 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.brand__logo {
+.brands__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1972,21 +1974,14 @@ textarea {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-@media (max-width: 409.98px) {
-  .brand__logo {
-    -ms-flex-preferred-size: 130px;
-        flex-basis: 130px;
-    height: 60px;
-  }
-}
 @media (any-hover: hover) {
-  .brand__logo:hover {
+  .brands__logo:hover {
     -webkit-box-shadow: 0 0 10px #fff;
             box-shadow: 0 0 10px #fff;
     border: 1px solid #000;
   }
 }
-.brand__logo img {
+.brands__logo img {
   max-width: 100%;
   max-height: 100%;
 }
