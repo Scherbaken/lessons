@@ -260,9 +260,6 @@ $purpleColor: #8a33fd;
 				box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.6);
 			}
 		}
-		&:active {
-			transform: scale(0.97);
-		}
 		&--left {
 			padding: 67px 28px;
 			@media (max-width: 850px) {
@@ -707,9 +704,12 @@ $purpleColor: #8a33fd;
 				border: 1px solid $activeColor;
 			}
 		}
+		&:active {
+			transform: scale(0.97);
+		}
 		&--dark {
 			color: $activeColor;
-			border: 2px solid $activeColor;
+			border: 1px solid $activeColor;
 			transition: all 0.3s;
 			&:hover {
 				@media (any-hover: hover) {
@@ -935,6 +935,9 @@ $purpleColor: #8a33fd;
 				box-shadow: 0 0 10px #fff;
 				border: 1px solid #000;
 			}
+		}
+		&:active {
+			transform: scale(0.97);
 		}
 		img {
 			max-width: 100%;
