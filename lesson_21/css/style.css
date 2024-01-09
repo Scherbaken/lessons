@@ -1194,11 +1194,6 @@ textarea {
             box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.6);
   }
 }
-.sale__item:active {
-  -webkit-transform: scale(0.97);
-      -ms-transform: scale(0.97);
-          transform: scale(0.97);
-}
 .sale__item--left {
   padding: 67px 28px;
 }
@@ -1741,9 +1736,14 @@ textarea {
     border: 1px solid #3c4242;
   }
 }
+.item-saving__link:active {
+  -webkit-transform: scale(0.97);
+      -ms-transform: scale(0.97);
+          transform: scale(0.97);
+}
 .item-saving__link--dark {
   color: #3c4242;
-  border: 2px solid #3c4242;
+  border: 1px solid #3c4242;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -2021,6 +2021,11 @@ textarea {
             box-shadow: 0 0 10px #fff;
     border: 1px solid #000;
   }
+}
+.brands__logo:active {
+  -webkit-transform: scale(0.97);
+      -ms-transform: scale(0.97);
+          transform: scale(0.97);
 }
 .brands__logo img {
   max-width: 100%;
