@@ -226,17 +226,13 @@ textarea {
   font-family: "Core Sans C", sans-serif;
   letter-spacing: 0.68px;
   text-transform: capitalize;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  gap: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding-left: 26px;
+  position: relative;
 }
 @media (max-width: 479.98px) {
   .title {
     font-size: 30px;
+    padding-left: 15px;
   }
 }
 .title::before {
@@ -248,10 +244,15 @@ textarea {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+  position: absolute;
+  left: 0;
+  top: 1px;
 }
 @media (max-width: 479.98px) {
   .title::before {
-    height: 28px;
+    height: 26px;
+    width: 5px;
+    top: 3px;
   }
 }
 .title:not(:last-child) {
@@ -367,6 +368,8 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .card__favorite img {
   width: 14px;
@@ -535,6 +538,8 @@ textarea {
   line-height: 1.2;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 @media (max-width: 559.98px) {
   .card__price {
@@ -547,6 +552,11 @@ textarea {
 @media (max-width: 424.98px) {
   .card__price {
     display: block;
+  }
+}
+@media (any-hover: hover) {
+  .card__price:hover {
+    background-color: #807d7e;
   }
 }
 
@@ -891,6 +901,9 @@ textarea {
   left: 0;
 }
 
+.page {
+  padding-bottom: 100px;
+}
 .page__hero {
   margin-top: 108px;
 }
@@ -1017,14 +1030,19 @@ textarea {
   line-height: 1.2;
   letter-spacing: 0.315px;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 959.98px) {
   .hero__title {
     font-size: 64px;
   }
 }
+@media (max-width: 767.98px) {
+  .hero__title {
+    font-size: 52px;
+  }
+}
 @media (max-width: 579.98px) {
   .hero__title {
-    font-size: 44px;
+    font-size: 40px;
   }
 }
 .hero__discription {
@@ -1984,4 +2002,9 @@ textarea {
 .brands__logo img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.footer {
+  min-height: 200px;
+  background-color: #3c4242;
 }
