@@ -953,12 +953,12 @@ textarea {
 .hero {
   font-family: "Core Sans C";
   color: #fff;
-  min-height: calc(100vh - 108px);
+  min-height: calc(100svh - 108px);
   position: relative;
 }
 @media (max-width: 959.98px) {
   .hero {
-    min-height: calc(100vh - 70px);
+    min-height: calc(100svh - 70px);
   }
 }
 @media (max-height: 639.98px) and (min-aspect-ratio: 1/1) {
