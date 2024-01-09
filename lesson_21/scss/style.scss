@@ -35,6 +35,7 @@ $purpleColor: #8a33fd;
 
 // Стилізуємо main
 .page {
+	padding-bottom: 100px;
 	&__hero {
 		margin-top: 108px;
 		&:not(:last-child) {
@@ -118,9 +119,6 @@ $purpleColor: #8a33fd;
 		flex: 0 1 auto;
 		max-width: 550px;
 		position: relative;
-		// @media (max-height: 399.98px) {
-		// 	flex-grow: 1;
-		// }
 		> *:not(:last-child) {
 			margin-bottom: 40px;
 			@media (max-width: 767.98px), (max-height: 569.98px) {
@@ -148,11 +146,14 @@ $purpleColor: #8a33fd;
 		font-weight: 800;
 		line-height: 1.2;
 		letter-spacing: 0.315px;
-		@media (max-width: 767.98px) {
+		@media (max-width: 959.98px) {
 			font-size: 64px;
 		}
+		@media (max-width: 767.98px) {
+			font-size: 52px;
+		}
 		@media (max-width: 579.98px) {
-			font-size: 44px;
+			font-size: 40px;
 		}
 	}
 

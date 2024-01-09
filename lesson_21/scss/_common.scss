@@ -62,11 +62,11 @@
 	font-family: $secondaryFont, sans-serif;
 	letter-spacing: 0.68px;
 	text-transform: capitalize;
-	display: inline-flex;
-	gap: 20px;
-	align-items: center;
+	padding-left: 26px;
+	position: relative;
 	@media (max-width: 479.98px) {
 		font-size: 30px;
+		padding-left: 15px;
 	}
 	&::before {
 		content: "";
@@ -75,8 +75,13 @@
 		background-color: $purpleColor;
 		border-radius: 10px;
 		flex: 0 0 auto;
+		position: absolute;
+		left: 0;
+		top: 1px;
 		@media (max-width: 479.98px) {
-			height: 28px;
+			height: 26px;
+			width: 5px;
+			top: 3px;
 		}
 	}
 	&:not(:last-child) {
@@ -161,6 +166,7 @@
 		justify-content: center;
 		align-items: center;
 		background-color: $mainBgColor;
+		transition: all 0.3s;
 		img {
 			width: 14px;
 			height: 12px;
@@ -293,12 +299,18 @@
 		line-height: 1.2;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		transition: all 0.3s;
 		@media (max-width: 559.98px) {
 			font-size: 22px;
 			flex: 0 0 122px;
 		}
 		@media (max-width: 424.98px) {
 			display: block;
+		}
+		&:hover {
+			@media (any-hover: hover) {
+				background-color: $greyColor;
+			}
 		}
 	}
 }
