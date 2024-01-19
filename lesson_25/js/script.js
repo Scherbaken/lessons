@@ -21,15 +21,17 @@ console.log(bodyElement);
 // Відповідь: 
 
 function insertList(count = 5) {
-	const listElement = document.createElement('ul')
+	const listElement = document.createElement('ul');
 	for (let i = 1; i <= count; i++) {
 		const itemElement = document.createElement('li')
 		listElement.append(itemElement);
-	}
-	bodyElement.insertAdjacentElement("afterbegin", listElement);
+	};
+	if (count > 0) {
+		bodyElement.insertAdjacentElement("afterbegin", listElement);
+	};
 }
 
-insertList(3);
+insertList(0);
 
 // ==============================================================================
 
@@ -97,10 +99,12 @@ if (button) {button.scrollIntoView({
 // Відповідь:
 
 const link = document.querySelector('.link');
-link.setAttribute("data-attr", 100);
-const attribute = link.getAttribute("data-attr");
-// console.log(attribute);
-if (attribute < 200) {
-link.style.color = "red";
-}
+if(link){
+	link.setAttribute("data-attr", 100);
+	const attribute = link.getAttribute("data-attr");
+	if (attribute < 200) {
+		link.style.color = "red";
+		};
+};
+
 
